@@ -1,0 +1,475 @@
+#fullpage {
+  width: 100%;
+}
+
+#fullpage .section {
+  width: 100%;
+  height: 900px;
+}
+
+#fullpage .section:nth-child(1) {
+  background: url('../images/school.jpg') no-repeat center top;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+#fullpage .section:nth-child(1) #welcome {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  font-weight: 900;
+  /* font-family: '寰蒋闆呴粦'; */
+  text-shadow: 5px 5px 5px 5px #000;
+  color: #fff;
+}
+
+#fullpage .section:nth-child(1) #myName {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  font-weight: 900;
+  /* font-family: '寰蒋闆呴粦'; */
+  text-shadow: 5px 5px 5px 5px #000;
+  color: #fff;
+}
+
+#fullpage .section:nth-child(1) #myProfession {
+  position: absolute;
+  bottom: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  font-weight: 900;
+  /* font-family: '寰蒋闆呴粦'; */
+  text-shadow: 5px 5px 5px 5px #000;
+  color: #fff;
+}
+
+#fullpage .section:nth-child(1) #down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 250px;
+}
+
+#fullpage .section:nth-child(1) #xiaohui {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#fullpage .section:nth-child(1) #xiaohui img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#fullpage .section:nth-child(2) {
+  background-color: #f4f4f4;
+  padding-top: 70px;
+  height: 720px;
+}
+
+#fullpage .section:nth-child(2)>h1 {
+  /* font-family: '寰蒋闆呴粦'; */
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#fullpage .section:nth-child(2) .myself {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+  height: 500px;
+}
+
+#fullpage .section:nth-child(2) .myself .myselfLeft {
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+
+#fullpage .section:nth-child(2) .myself .myselfLeft img {
+  width: 100%;
+  height: 500px;
+}
+
+#fullpage .section:nth-child(2) .myself .myselfRight {
+  width: 60%;
+  float: right;
+  background: skyblue;
+  height: 100%;
+  padding: 50px;
+}
+
+#fullpage .section:nth-child(2) .myself .myselfRight>p {
+  /* font-family: '寰蒋闆呴粦'; */
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#fullpage .section:nth-child(2) .myself .myselfRight>p:nth-child(1) {
+  font-size: 40px;
+}
+
+#fullpage .section:nth-child(3) {
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+#fullpage .section:nth-child(3) .myWork {
+  position: relative;
+}
+
+#fullpage .section:nth-child(3) .myWork .bar {
+  width: 2px;
+  height: 500px;
+  background: skyblue;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+}
+
+#fullpage .section:nth-child(3) .myWork .bar .icon {
+  z-index: 100;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 2px dotted skyblue;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+}
+
+#fullpage .section:nth-child(3) .myWork .bar .icon:nth-of-type(1) {
+  top: 0;
+  background: #fff;
+}
+
+#fullpage .section:nth-child(3) .myWork .bar .icon:nth-of-type(2) {
+  top: 250px;
+  background: #fff;
+}
+
+#fullpage .section:nth-child(3) .myWork .bar .icon:nth-of-type(3) {
+  top: 500px;
+  background: #fff;
+}
+
+#fullpage .section:nth-child(3) .myWork h1 {
+  /* font-family: '寰蒋闆呴粦'; */
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#fullpage .section:nth-child(3) .myWork h2 {
+  color: skyblue;
+  /* font-family: '寰蒋闆呴粦'; */
+}
+
+#fullpage .section:nth-child(3) .myWork h3 {
+  margin-bottom: 15px;
+}
+
+#fullpage .section:nth-child(3) .myWork .firstWork {
+  position: absolute;
+  width: 40%;
+  height: 250px;
+  top: 150px;
+  left: 100px;
+  text-align: right;
+}
+
+#fullpage .section:nth-child(3) .myWork .secondWork {
+  position: absolute;
+  width: 40%;
+  height: 250px;
+  top: 350px;
+  right: 100px;
+  text-align: left;
+}
+
+#fullpage .section:nth-child(3) .myWork .thirdWork {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  width: 40%;
+  height: 250px;
+  text-align: right;
+}
+
+#fullpage .section:nth-child(4) {
+  background-color: #34353a;
+  height: 700px;
+  padding-top: 50px;
+}
+
+#fullpage .section:nth-child(4) .mySkill {
+  position: relative;
+}
+
+#fullpage .section:nth-child(4) .mySkill canvas {
+  position: absolute;
+  left: 10px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine {
+  position: absolute;
+  top: 128px;
+  color: #fff;
+  font-size: 40px;
+  z-index: 50;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine:nth-of-type(1) {
+  left: 180px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine:nth-of-type(2) {
+  left: 380px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine:nth-of-type(3) {
+  left: 580px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine:nth-of-type(4) {
+  left: 780px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine:nth-of-type(5) {
+  left: 980px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLine:nth-of-type(6) {
+  left: 1180px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP {
+  position: absolute;
+  top: 240px;
+  color: #fff;
+  font-size: 40px;
+  z-index: 50;
+  width: 200px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP:nth-of-type(1) {
+  left: 120px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP:nth-of-type(2) {
+  left: 330px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP:nth-of-type(3) {
+  left: 558px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP:nth-of-type(4) {
+  left: 750px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP:nth-of-type(5) {
+  left: 970px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .firstLineP:nth-of-type(6) {
+  left: 1140px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine {
+  position: absolute;
+  top: 375px;
+  color: #fff;
+  font-size: 40px;
+  z-index: 50;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine:nth-of-type(7) {
+  left: 180px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine:nth-of-type(8) {
+  left: 380px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine:nth-of-type(9) {
+  left: 580px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine:nth-of-type(10) {
+  left: 780px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine:nth-of-type(11) {
+  left: 980px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLine:nth-of-type(12) {
+  left: 1180px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP {
+  position: absolute;
+  top: 490px;
+  color: #fff;
+  font-size: 40px;
+  z-index: 50;
+  width: 150px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP:nth-of-type(7) {
+  left: 120px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP:nth-of-type(8) {
+  left: 320px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP:nth-of-type(9) {
+  left: 537px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP:nth-of-type(10) {
+  left: 750px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP:nth-of-type(11) {
+  left: 940px;
+}
+
+#fullpage .section:nth-child(4) .mySkill .secondLineP:nth-of-type(12) {
+  left: 1192px;
+}
+
+#fullpage .section:nth-child(4) .mySkill h1 {
+  /* font-family: '寰蒋闆呴粦'; */
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+}
+
+#fullpage .section:nth-child(5) {
+  height: 800px;
+  background-color: skyblue;
+  padding-top: 50px;
+}
+
+#fullpage .section:nth-child(5) .myProject h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#fullpage .section:nth-child(5) .myProject .swiper-container {
+  margin-top: 50px;
+  width: 80%;
+  height: 500px;
+  /*border: 1px solid #000;*/
+}
+
+#fullpage .section:nth-child(5) .myProject .swiper-container .swiper-slide>a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#fullpage .section:nth-child(5) .myProject .swiper-container .swiper-slide>a>img {
+  width: 100%;
+  height: 100%;
+}
+
+#fullpage .section:nth-child(6) {
+  background-color: black;
+  height: 150px;
+  padding-top: 50px;
+}
+
+#fullpage .section:nth-child(6) .concatMe>h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.absoluted {
+  position: absolute;
+  top: 50px;
+}
+
+#menu {
+  background: black;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding-left: 100px;
+}
+
+#menu>li {
+  width: 83px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+#circleMenu {
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  z-index: 100;
+}
+
+#circleMenu>li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #34353a;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#circleMenu>li:hover {
+  background: red;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: darkblue;
+}
+
+.yellow {
+  background: yellowgreen;
+}
